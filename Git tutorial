@@ -27,4 +27,4 @@ git push -u origin master
 - git branch <name of branch>				// Takes a copy of the current repo and works on it without affecting
 							// the main branch
 
-- Check Derek's tutorials and cheat sheet.
+
