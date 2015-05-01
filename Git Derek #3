@@ -101,6 +101,10 @@ III. Local : Version being pointed at by HEAD
 
 IV. Remote : The branch being merged into head
 
+------------Me Data-----------
+git checkout 0d1d7fc32				# This will detach your HEAD, that is, leave you with no branch checked out.
+git checkout -b old-state 0d1d7fc32		# Add commits from the old commit or old branch.
+
 9. ---------------- Rebasing Example ----------------
 
 a. Rebasing moves a branch to a new ( master / base ) commit. This is also referred to as a fast forward merge. Just never rebase commits that have been pushed to a public repository
@@ -152,6 +156,10 @@ h. git reset aCommit # Move back to this previous commit, reseting the staging a
 i. git reset --hard # Reset both the staging area and working directory to match the most recent commit
 
 j. git reset --hard aCommit # Move back to the commit listed and change staging and working directory
+-------- Me Data --------
+git checkout 0d1d7fc32				# Go to the commit with that hash code, work without any branch.
+git checkout -b old-state 0d1d7fc32		# Creates a branch while at the old commit.
+
 
 11. ---------------- Clean Example ----------------
 
