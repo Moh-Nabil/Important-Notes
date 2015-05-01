@@ -22,6 +22,10 @@ e. git push origin master
 
 6. git fetch origin # Gets data from the remote, but it doesn't merge changes with your work
 
+-------- Me Data --------
+git pull origin <branch name>  # Gets data from the remote, but it merges changes with your work
+git fetch origin <branch name> # Gets data from the remote, but it doesn't merge changes with your work
+
 7. git pull https://github.com/derekbanas/SimpleFragment.git
 
 a. Pulls all changes and saves them to your directory
