@@ -1,0 +1,29 @@
+- gedit "filename"					// Creates a file .txt in the current directory.
+- git add filename					// To add a certain file to the list to be added.
+- git add .						// To add all files in the current directory to the stagging list.
+- git commit -m 'message'				// To commit all the files in the stagging status to the repo.
+- git init						// To init a git repo on the system.
+- git config --global user.name "username"		// Synchronize with Github.
+- git config --global user.email "email"		// Synchronize with Github.
+
+*************To add a new repo from command line to Github*******************
+echo "# Name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Moh-Nabil/Name.git
+git push -u origin master
+
+*************To add an existing repo from command line to Github*************
+
+git remote add origin https://github.com/Moh-Nabil/Learning-Again.git
+git push -u origin master
+
+
+- git clone <URL>					// Downloads a repo at this URL.
+- git status						// Shows current pendings and changes.
+- git log						// History of the session.
+- git add *.<extensions>				// Add files with the specified extensions.
+- git branch <name of branch>				// Takes a copy of the current repo and works on it without affecting
+							// the main branch
+

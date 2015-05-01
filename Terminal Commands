@@ -1,0 +1,10 @@
+- cd <directory>				// Change current directory.
+- ls						// See current folder and files in the current directory.
+- nautilus .					// Open current directory in a new window.
+- nautilus					// Open new window starting at home.
+- gedit "<file name>"				// Create a new gedit file in the current directory.
+- ctrl + l					// Clear the terminal.
+- clear                                         // Clear the terminal.
+- mv /path/from /path/to			// Cut and paste files and folders.
+- cd ..						// Step back one directory.
+
