@@ -27,7 +27,7 @@ git push -u origin master
 - git branch <name of branch>				// Takes a copy of the current repo and works on it without affecting
 							// the main branch
 
--- To merge or not to merge
+-- To merge or not to trying to tweak things around a little bit.
 
 -- The other branch playing around !!
 -- Can't it really work ??
